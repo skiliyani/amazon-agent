@@ -1,0 +1,25 @@
+{
+	"name": "amazon-agent",
+	"version": "0.1.0",
+	"description": "Helper for Amazon Website Monitoring",
+	"main": "amazon-agent.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+	},
+	"repository": "",
+	"keywords": [
+		"node.js",
+		"eclipse",
+		"nodeclipse"
+	],
+	"author": "kiliyani",
+	"license": "MIT",
+	"readmeFilename": "README.md",
+	"dependencies": {
+		"request": "^2.88.2",
+		"cheerio": "1.0.0-rc.3",
+		"mysql": "^2.16.0",
+		"nodemailer": "^6.4.6",
+		"pug": "^2.0.4"
+	}
+}
